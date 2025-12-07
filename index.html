@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prolog Platformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Super Prolog Bros</h1>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div id="startScreen" class="overlay">
+            <button id="startBtn">START GAME</button>
+        </div>
+        <div id="ui">
+            <p>Score: <span id="score">0</span></p>
+            <p id="status">Connecting...</p>
+        </div>
+        <p class="controls">Controls: Arrow Keys / WASD to Move & Jump</p>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
